@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thakhu's Knit & Bead Co</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shopping-bag">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+          <path d="M3 6h18"></path>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        <span>Thakhu's Knit & Bead Co</span>
+      </div>
+      
+      <button class="mobile-menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+      </div>
+    </div>
+
+    <div class="mobile-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="text-center">
+        <h1>Welcome to Thakhu's Knit & Bead Co</h1>
+        <p>Where traditional meets beauty. We specialize in creating modern makunda and jewelry using time-honored techniques and high-quality materials.</p>
+        <div class="hero-images">
+          <img 
+            src="makunda3.jpg" 
+            alt="Traditional Makunda"
+            class="hero-image"
+          />
+          <img 
+            src="pro.jpg" 
+            alt="Beaded Jewelry"
+            class="hero-image"
+          />
+          <img 
+            src="makunda2.jpg" 
+            alt="Heritage Collection"
+            class="hero-image"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-card">
+        <div class="about-images">
+          <img 
+            src="pro2.jpg" 
+            alt="Crafting Process"
+            class="about-image"/>
+        </div>
+        <p>Each piece is handcrafted with love and care, paying homage to the rich cultural heritage that inspires me. From statement pieces to everyday adornments, my jewelry is designed to connect you to the past while embracing the present.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Our Collections</h2>
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img 
+            src="keychain.jpg" 
+            alt="Traditional Makunda Set"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Keychains</h3>
+            <p class="product-description">Personalized On Request</p>
+            <div class="product-footer">
+              <span class="product-price">R25.00</span>
+              <button class="order-button" onclick="handleWhatsAppOrder(1)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Order on WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img 
+            src="necklace.jpg" 
+            alt="Modern Beaded Necklace"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Necklace</h3>
+            <p class="product-description">Personalized On Request</p>
+            <div class="product-footer">
+              <span class="product-price">R35.00</span>
+              <button class="order-button" onclick="handleWhatsAppOrder(2)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Order on WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img 
+            src="bracelt.jpg" 
+            alt="Heritage Bracelet Collection"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Bracelet</h3>
+            <p class="product-description">Personalized On Request</p>
+            <div class="product-footer">
+              <span class="product-price">R20.00</span>
+              <button class="order-button" onclick="handleWhatsAppOrder(3)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Order on WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img 
+            src="combo.jpg" 
+            alt="Beaded Earring Set"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Combo(Bracelet and Necklace)</h3>
+            <p class="product-description">Personalized On Request</p>
+            <div class="product-footer">
+              <span class="product-price">R50.00</span>
+              <button class="order-button" onclick="handleWhatsAppOrder(4)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Order on WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <img 
+            src="his n her.jpg" 
+            alt="Royal Makunda Collection"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">His & Hers</h3>
+            <p class="product-description">Personalized On Request</p>
+            <div class="product-footer">
+              <span class="product-price">R40.00</span>
+              <button class="order-button" onclick="handleWhatsAppOrder(5)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Order on WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <img 
+            src="2in1.jpg" 
+            alt="Beaded Anklet"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">2 in 1</h3>
+            <p class="product-description">Personalized On Request</p>
+            <div class="product-footer">
+              <span class="product-price">R40.00</span>
+              <button class="order-button" onclick="handleWhatsAppOrder(6)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Order on WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+          <img 
+            src="makunda.jpg" 
+            alt="Festival Special Set"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Modern Makunda</h3>
+            <p class="product-description">Personalized On Request</p>
+            <div class="product-footer">
+              <span class="product-price">R25.00</span>
+              <button class="order-button" onclick="handleWhatsAppOrder(7)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Order on WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Thakhu's Knit & Bead Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
